@@ -8,17 +8,24 @@
   <!-- md-block -->
   <script type="module" src="https://md-block.verou.me/md-block.js"></script>
 
-  <!-- GitHub Markdown Style (Light) -->
+  <!-- GitHub Markdown (Light) -->
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.5.1/github-markdown.min.css">
 
+  <!-- GitHub Markdown (Dark) -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.5.1/github-markdown-dark.min.css"
+        media="(prefers-color-scheme: dark)">
+
   <style>
-    /* ===== 기본 ===== */
+    /* ===============================
+        라이트 모드 (기본)
+    =============================== */
     body {
       margin: 0;
       background: #f6f8fa;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
-                   "Noto Sans KR", sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                   "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
       color: #24292f;
     }
 
@@ -28,7 +35,6 @@
       padding: 32px 20px 60px;
     }
 
-    /* ===== 헤더 ===== */
     header {
       margin-bottom: 32px;
     }
@@ -51,7 +57,6 @@
       color: #6e7781;
     }
 
-    /* ===== Markdown 카드 ===== */
     .markdown-body {
       background: #ffffff;
       padding: 40px;
@@ -75,7 +80,36 @@
       padding: 0.2em 0.4em;
     }
 
-    /* ===== 모바일 최적화 ===== */
+    /* ===============================
+        다크 모드 (OS 자동)
+    =============================== */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #0d1117;
+        color: #c9d1d9;
+      }
+
+      .project-subtitle {
+        color: #8b949e;
+      }
+
+      .project-meta {
+        color: #7d8590;
+      }
+
+      .markdown-body {
+        background: #161b22;
+        box-shadow: none;
+      }
+
+      .markdown-body code {
+        background: #30363d;
+      }
+    }
+
+    /* ===============================
+        모바일 최적화
+    =============================== */
     @media (max-width: 768px) {
       .container {
         padding: 20px 14px 40px;
@@ -134,3 +168,5 @@
   </div>
 </body>
 </html>
+
+
