@@ -80,9 +80,9 @@
 - [**색상 필터 개발 논문 소개&요악; GIST(다운로드)**](https://share.google/PJldsCRLMKkINnyYV)
 
 ## Theme4. 전기자극과 화학 물질을 이용한 대뇌 색맹 환자 치료_*문현민*
-- **가쪽무릎핵(LNG)**: 전달받은 전기 자극을 증폭하는 역할을 함.
+- **가쪽무릎핵(LGN)**: 전달받은 전기 자극을 증폭하는 역할을 함.
 ![가쪽무릎핵 사진](https://uen.pressbooks.pub/app/uploads/sites/261/2024/03/fig37-coronal-section-of-brain-showing-lgn-section-16.png)
-- **시각 피질**: 시각 정보 처리를 담당하는 뇌의 부분. V1(1차 시각 피질)부터 V5(5차 시각 피질)로 구분 함.
+- **시각 피질**: 시각 정보 처리를 담당하는 뇌의 부분. V1(1차 시각 피질)부터 V5(5차 시각 피질)로 구분함.
 ![시각 피질 사진](https://soongilwiki.com/image/2907383f97b484b20d51f132eeeff5af4468fe473fedc93530224e4d.jpg.cache_v1)
 ![우리가 세상을 보는 과정](https://img.khan.co.kr/news/r/700xX/2018/12/28/l_2018122901003194000254082.webp)
 
@@ -130,6 +130,7 @@
 #### K-Means Clustering
 ### 실제로 전체 코드를 구경하고 싶다면?
 개발자의 [**깃허브 리포지토리**](https://github.com/kimjuwon311/Sonification)를 방문해보세요!  
+
 
 
 
