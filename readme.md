@@ -124,7 +124,7 @@
 #### 차원에 대한 해석
 CLIP이 이미지를 벡터로 변환하는 과정에서 차원에 대한 혼동이 오신 분들이 많으리라 생각합니다.
 
-![차원](https://thebook.io/img/080246/157.jpg)
+![차원](https://thebook.io/img/080246/157.jpg)\
 위 이미지는 차원 별 텐서에 대해 나타낸 그림입니다. 이미지는 (높이, 너비, 색 채널)의 3차원 텐서를 가지는데, 이를 2차원텐서의 벡터로 나태내어 코사인 유사도를 통해 이미지에 대한 감정 값을 추출하는 것이 CLIP이 한 일입니다.
 
 (보다 구체적으로 설명하자면, 사실 이 과정에서 '합성곱 신경망'이라는 것을 이용합니다. 관심 있으신 분들은 자연어 처리나 딥러닝 그리고 선형대수학에 대해 공부해보세요.)
@@ -132,18 +132,19 @@ CLIP이 이미지를 벡터로 변환하는 과정에서 차원에 대한 혼동
 코사인 유사도는 두 벡터의 유사한 정도를 파악하는 여러가지 방법 중 하니입니다.
 
 아래 사진처럼 코사인 유사도는 1과 -1 사이의 값을 갖게 됩니다.(y=cosx 개형을 떠올리셔도 좋습니다.)
-![코사인 유사도](https://static.wikidocs.net/images/page/24603/%EC%BD%94%EC%82%AC%EC%9D%B8%EC%9C%A0%EC%82%AC%EB%8F%84.PNG)\
+![코사인 유사도](https://static.wikidocs.net/images/page/24603/%EC%BD%94%EC%82%AC%EC%9D%B8%EC%9C%A0%EC%82%AC%EB%8F%84.PNG)
 
 코사인 유사도는 스칼리 곱(Dot product)을 이용합니다. 수평상 곱 또는 내적이라고도 부릅니다.
 ![수식](https://velog.velcdn.com/images/parkchansaem/post/3f2a1542-fced-4add-b4d3-a144d955bd21/image.png)
 
 #### K-Means Clustering
-K-Means Clustering은 군집화 방법 중 하나입니다. 어떤 분의 블로그인데, 참고하시면 좋을 것 같습니다.
+K-Means Clustering은 군집화 방법 중 하나입니다. 어떤 분의 블로그인데, 참고하시면 좋을 것 같습니다.\
 [K-Means Clustering 설명 블로그](https://process-mining.tistory.com/122)\
 실습하고 싶으신 분들은 파이썬 환경에서 matplotlib, pandas, seaborn, numpy, random 라이브러리를 이용하시면 됩니다.
 
 ### 실제로 전체 코드를 구경하고 싶다면?
 개발자의 [**깃허브 리포지토리**](https://github.com/kimjuwon311/Sonification)를 방문해보세요!
+
 
 
 
